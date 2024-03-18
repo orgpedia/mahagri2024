@@ -1,12 +1,426 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-247
+264
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403141610289901.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202403141610289901.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:4 Errors=4 TableEmptyBodyCellError=4
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403141610289901.pdf --> para 202403141610289901.pdf:Page_idx: 0 2 <-> [(0, 17)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403151802373501.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202403151802373501.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:33 Errors=33 TableEmptyBodyCellError=33
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403151802373501.pdf --> para 202403151802373501.pdf:Page_idx: 0 1 <-> [(0, 9), (0, 10)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403151805270701.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
-#docs: 247 #processed: 3
+	202403151805270701.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+	Tesseract on page: 5
+	Tesseract on page: 6
+	Tesseract on page: 7
+	Tesseract on page: 8
+	Tesseract on page: 9
+	Tesseract on page: 10
+  exec_task: pdftable_finder 
+	==Total:144 Errors=144 TableEmptyBodyCellError=144
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403151805270701.pdf --> para 202403151805270701.pdf:Page_idx: 1 1 <-> [(0, 2), (0, 3)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152302346301.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:67 Errors=67 TableEmptyBodyCellError=67
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152302346301.pdf: Unable to find order
+	elapsed_time:202403152302346301.pdf: 0.000041
+  exec_task: doc_translator_hf 
+    Paras: #79 Sentences: #0
+	[0]  #words: 257 #sentences: 61
+	After generate: 3 MB
+	[1]  #words: 257 #sentences: 28
+	After generate: 3 MB
+	[2]  #words: 131 #sentences: 13
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152306071901.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:110 Errors=110 TableEmptyBodyCellError=110
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152306071901.pdf: Unable to find order
+	elapsed_time:202403152306071901.pdf: 0.000043
+  exec_task: doc_translator_hf 
+    Paras: #81 Sentences: #0
+	[0]  #words: 259 #sentences: 60
+	After generate: 4 MB
+	[1]  #words: 267 #sentences: 31
+	After generate: 4 MB
+	[2]  #words: 134 #sentences: 13
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152309120301.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:95 Errors=95 TableEmptyBodyCellError=95
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152309120301.pdf: Unable to find order
+	elapsed_time:202403152309120301.pdf: 0.000034
+  exec_task: doc_translator_hf 
+    Paras: #77 Sentences: #0
+	[0]  #words: 260 #sentences: 58
+	After generate: 4 MB
+	[1]  #words: 265 #sentences: 28
+	After generate: 4 MB
+	[2]  #words: 136 #sentences: 13
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152312321901.pdf missing_cmaps: dvotsurekhmrbold, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:92 Errors=92 TableEmptyBodyCellError=92
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152312321901.pdf: Unable to find order
+	elapsed_time:202403152312321901.pdf: 0.000040
+  exec_task: doc_translator_hf 
+    Paras: #71 Sentences: #0
+	[0]  #words: 260 #sentences: 57
+	After generate: 4 MB
+	[1]  #words: 261 #sentences: 26
+	After generate: 4 MB
+	[2]  #words: 92 #sentences: 8
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152320389201.pdf missing_cmaps: nirmalauibold, dvotsurekhmrbold, sakalmarathinormal
+  exec_task: word_recognizer 
+	Replaced 0:39 >(nirmalauibold-cid:285)(nirmalauibold-cid:323)(nirmalauibold-cid:265)(nirmalauibold-cid:272)(nirmalauibold-cid:330)<  >सद्‌भ॑<
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:117 Errors=117 TableEmptyBodyCellError=117
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152320389201.pdf: Unable to find order
+	elapsed_time:202403152320389201.pdf: 0.000034
+  exec_task: doc_translator_hf 
+    Paras: #86 Sentences: #0
+	[0]  #words: 262 #sentences: 62
+	After generate: 4 MB
+	[1]  #words: 258 #sentences: 25
+	After generate: 4 MB
+	[2]  #words: 263 #sentences: 23
+	After generate: 4 MB
+	[3]  #words: 46 #sentences: 3
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152342200601.pdf missing_cmaps: nirmalauibold, dvotsurekhmrbold, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152342200601.pdf: Unable to find order
+	elapsed_time:202403152342200601.pdf: 0.000033
+  exec_task: doc_translator_hf 
+    Paras: #70 Sentences: #16
+	[0]  #words: 23 #sentences: 8
+	After generate: 4 MB
+	[0]  #words: 257 #sentences: 52
+	After generate: 4 MB
+	[1]  #words: 266 #sentences: 26
+	After generate: 4 MB
+	[2]  #words: 81 #sentences: 7
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152347006301.pdf missing_cmaps: nirmalauibold, dvotsurekhmrbold, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152347006301.pdf: Unable to find order
+	elapsed_time:202403152347006301.pdf: 0.000032
+  exec_task: doc_translator_hf 
+    Paras: #69 Sentences: #20
+	[0]  #words: 19 #sentences: 6
+	After generate: 4 MB
+	[0]  #words: 262 #sentences: 52
+	After generate: 4 MB
+	[1]  #words: 263 #sentences: 26
+	After generate: 4 MB
+	[2]  #words: 45 #sentences: 4
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152350194601.pdf missing_cmaps: nirmalauibold, dvotsurekhmrbold, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 3
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152350194601.pdf: Unable to find order
+	elapsed_time:202403152350194601.pdf: 0.000037
+  exec_task: doc_translator_hf 
+    Paras: #69 Sentences: #20
+	[0]  #words: 25 #sentences: 9
+	After generate: 4 MB
+	[0]  #words: 258 #sentences: 52
+	After generate: 4 MB
+	[1]  #words: 267 #sentences: 26
+	After generate: 4 MB
+	[2]  #words: 81 #sentences: 7
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152353492001.pdf missing_cmaps: nirmalauibold, dvotsurekhmrbold, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152353492001.pdf: Unable to find order
+	elapsed_time:202403152353492001.pdf: 0.000037
+  exec_task: doc_translator_hf 
+    Paras: #78 Sentences: #16
+	[0]  #words: 19 #sentences: 6
+	After generate: 4 MB
+	[0]  #words: 257 #sentences: 54
+	After generate: 4 MB
+	[1]  #words: 259 #sentences: 26
+	After generate: 4 MB
+	[2]  #words: 140 #sentences: 12
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403152356202101.pdf missing_cmaps: nirmalauibold, dvotsurekhmrbold, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 3
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403152356202101.pdf: Unable to find order
+	elapsed_time:202403152356202101.pdf: 0.000045
+  exec_task: doc_translator_hf 
+    Paras: #74 Sentences: #16
+	[0]  #words: 23 #sentences: 8
+	After generate: 4 MB
+	[0]  #words: 257 #sentences: 56
+	After generate: 4 MB
+	[1]  #words: 259 #sentences: 27
+	After generate: 4 MB
+	[2]  #words: 115 #sentences: 10
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403160001012001.pdf missing_cmaps: nirmalauibold, dvotsurekhmrbold, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403160001012001.pdf: Unable to find order
+	elapsed_time:202403160001012001.pdf: 0.000043
+  exec_task: doc_translator_hf 
+    Paras: #75 Sentences: #20
+	[0]  #words: 19 #sentences: 6
+	After generate: 4 MB
+	[0]  #words: 257 #sentences: 54
+	After generate: 4 MB
+	[1]  #words: 264 #sentences: 26
+	After generate: 4 MB
+	[2]  #words: 125 #sentences: 11
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403160004521501.pdf missing_cmaps: nirmalauibold, dvotsurekhmrbold, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:10 Errors=10 TableEmptyBodyCellError=10
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403160004521501.pdf: Unable to find order
+	elapsed_time:202403160004521501.pdf: 0.000043
+  exec_task: doc_translator_hf 
+    Paras: #66 Sentences: #8
+	[0]  #words: 21 #sentences: 6
+	After generate: 4 MB
+	[0]  #words: 262 #sentences: 50
+	After generate: 4 MB
+	[1]  #words: 266 #sentences: 25
+	After generate: 4 MB
+	[2]  #words: 71 #sentences: 5
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403160006221301.pdf missing_cmaps: nirmalauibold, dvotsurekhmrbold, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403160006221301.pdf: Unable to find order
+	elapsed_time:202403160006221301.pdf: 0.000045
+  exec_task: doc_translator_hf 
+    Paras: #80 Sentences: #20
+	[0]  #words: 19 #sentences: 6
+	After generate: 4 MB
+	[0]  #words: 267 #sentences: 57
+	After generate: 4 MB
+	[1]  #words: 264 #sentences: 26
+	After generate: 4 MB
+	[2]  #words: 162 #sentences: 14
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403160009372101.pdf missing_cmaps: nirmalauibold, dvotsurekhmrbold, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403160009372101.pdf: >शासन आदेश क्रमांक< >कृषिआ १२१८/प्र.क्र.४१०/१६अे<
+	elapsed_time:202403160009372101.pdf: 0.000084
+  exec_task: doc_translator_hf 
+    Paras: #54 Sentences: #0
+	[0]  #words: 259 #sentences: 48
+	After generate: 4 MB
+	[1]  #words: 200 #sentences: 19
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403160015392901.pdf missing_cmaps: nirmalauibold, dvotsurekhmrbold, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:11 Errors=11 TableEmptyBodyCellError=11
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403160015392901.pdf: >शासन आदेश क्रमांक< >कृषिआ १०२२/प्र.क्र.२९/१६अे<
+	elapsed_time:202403160015392901.pdf: 0.000077
+  exec_task: doc_translator_hf 
+    Paras: #45 Sentences: #19
+	[0]  #words: 39 #sentences: 14
+	After generate: 4 MB
+	[0]  #words: 259 #sentences: 48
+	After generate: 4 MB
+	[1]  #words: 168 #sentences: 14
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403161456374601.pdf missing_cmaps: nirmalauibold, dvotsurekhmrbold, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	**FirstPage: 10: एमएलके-२०२३/प्र.क्र.११५/पदुम-८(ई.क्र.७१६७५७) ==शासन निर्णय क्रमांक: एमएलके-२०२३/प्र.क्र.११५/पदुम-८(ई.क्र.७१६७५७)
+	extract_order_number:202403161456374601.pdf: >शासन निर्णय क्रमांक< >एमएलके-२०२३/प्र.क्र.११५/पदुम-८(ई.क्र.७१६७५७)<
+	elapsed_time:202403161456374601.pdf: 0.000411
+  exec_task: doc_translator_hf 
+    Paras: #27 Sentences: #3
+	[0]  #words: 21 #sentences: 3
+	After generate: 4 MB
+	[0]  #words: 200 #sentences: 39
+	After generate: 9 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403161506227601.pdf missing_cmaps: nirmalauibold, dvotsurekhmrbold, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403161506227601.pdf: Unable to find order
+	elapsed_time:202403161506227601.pdf: 0.000059
+  exec_task: doc_translator_hf 
+    Paras: #51 Sentences: #3
+	[0]  #words: 27 #sentences: 3
+	After generate: 9 MB
+	[0]  #words: 262 #sentences: 54
+	After generate: 12 MB
+	[1]  #words: 241 #sentences: 18
+	After generate: 12 MB
+  exec_task: text_writer 
+#docs: 264 #processed: 20
