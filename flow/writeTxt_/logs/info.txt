@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-266
+270
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
 	202403141610289901.pdf missing_cmaps: sakalmarathinormal
@@ -46,54 +46,89 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202403151805270701.pdf --> para 202403151805270701.pdf:Page_idx: 1 1 <-> [(0, 2), (0, 3)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403191109047601.pdf missing_cmaps: sakalmarathinormal
+	202403201527218501.pdf missing_cmaps: sakalmarathinormal, dvotsurekhmr
   exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-	Tesseract on page: 2
-	Tesseract on page: 3
+	Replaced 2:234 >(dvotsurekhmr-cid:109)(dvotsurekhmr-cid:123).मंत्री<  >"1९9<
   exec_task: pdftable_finder 
-	==Total:4 Errors=4 TableEmptyBodyCellError=4
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403191109047601.pdf: >शासन निर्णय क्रमांक< >कोकृवि ११२४/प्र.क्र.३९/७-ओ<
-	elapsed_time:202403191109047601.pdf: 0.000104
+	extract_order_number:202403201527218501.pdf: >शासन निर्णय क्रमांक< >संकीर्ण-२०२३/प्र.क्र.१६४/३-अे<
+	elapsed_time:202403201527218501.pdf: 0.000082
   exec_task: doc_translator_hf 
-    Paras: #87 Sentences: #11
-	[0]  #words: 71 #sentences: 8
+    Paras: #79 Sentences: #26
+	[0]  #words: 93 #sentences: 21
 	After generate: 2 MB
-	[0]  #words: 259 #sentences: 61
-	After generate: 12 MB
-	[1]  #words: 267 #sentences: 27
-	After generate: 12 MB
-	[2]  #words: 277 #sentences: 20
-	After generate: 12 MB
-	[3]  #words: 180 #sentences: 5
-	After generate: 12 MB
+	[0]  #words: 259 #sentences: 59
+	After generate: 3 MB
+	[1]  #words: 268 #sentences: 26
+	After generate: 3 MB
+	[2]  #words: 141 #sentences: 12
+	After generate: 3 MB
   exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403191123308201.pdf missing_cmaps: sakalmarathinormal
+	202403201732584301.pdf missing_cmaps: sakalmarathinormal, dvotsurekhmr
   exec_task: word_recognizer 
   exec_task: pdftable_finder 
 	==Total:0 Errors=0 
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403191123308201.pdf: >शासन निर्णय क्रमांक< >अपोसु-२०२३/प्र.क्र.८३/४अे<
-	elapsed_time:202403191123308201.pdf: 0.000085
+	extract_order_number:202403201732584301.pdf: >शासन निर्णय क्रमांक< >दुविआ-२०२४/प्र.क्र.१४/पदुम-६<
+	elapsed_time:202403201732584301.pdf: 0.000130
   exec_task: doc_translator_hf 
-    Paras: #86 Sentences: #36
-	[0]  #words: 160 #sentences: 25
-	After generate: 12 MB
-	[0]  #words: 263 #sentences: 64
-	After generate: 12 MB
-	[1]  #words: 260 #sentences: 26
-	After generate: 12 MB
-	[2]  #words: 265 #sentences: 21
-	After generate: 12 MB
-	[3]  #words: 108 #sentences: 8
-	After generate: 12 MB
+    Paras: #43 Sentences: #0
+	[0]  #words: 260 #sentences: 47
+	After generate: 3 MB
+	[1]  #words: 123 #sentences: 10
+	After generate: 3 MB
   exec_task: text_writer 
-#docs: 266 #processed: 5
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403201739061401.pdf missing_cmaps: sakalmarathinormal, dvotsurekhmr
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403201739061401.pdf: >शासन निर्णय क्रमांक< >अपोसु-२०२३/प्र.क्र.८४/४अे<
+	elapsed_time:202403201739061401.pdf: 0.000077
+  exec_task: doc_translator_hf 
+    Paras: #67 Sentences: #50
+	[0]  #words: 112 #sentences: 23
+	After generate: 4 MB
+	[0]  #words: 263 #sentences: 57
+	After generate: 4 MB
+	[1]  #words: 257 #sentences: 23
+	After generate: 4 MB
+	[2]  #words: 276 #sentences: 19
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403201742225401.pdf missing_cmaps: sakalmarathinormal, dvotsurekhmr
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403201742225401.pdf: >शासन निर्णय क्रमांक< >अपोसु-२०२३/प्र.क्र.८५/४अे<
+	elapsed_time:202403201742225401.pdf: 0.000080
+  exec_task: doc_translator_hf 
+    Paras: #84 Sentences: #36
+	[0]  #words: 202 #sentences: 25
+	After generate: 4 MB
+	[0]  #words: 264 #sentences: 67
+	After generate: 4 MB
+	[1]  #words: 268 #sentences: 27
+	After generate: 4 MB
+	[2]  #words: 267 #sentences: 20
+	After generate: 4 MB
+	[3]  #words: 69 #sentences: 5
+	After generate: 4 MB
+  exec_task: text_writer 
+#docs: 270 #processed: 7
