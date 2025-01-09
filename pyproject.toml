@@ -12,8 +12,6 @@ classifiers=[
     'License :: OSI Approved :: MIT License',
     'Natural Language :: English',
     'Programming Language :: Python :: 3',
-    'Programming Language :: Python :: 3.8',
-    'Programming Language :: Python :: 3.9',
     'Programming Language :: Python :: 3.10',
     'Programming Language :: Python :: 3.11',
     'Topic :: Scientific/Engineering :: Artificial Intelligence',
@@ -30,7 +28,7 @@ include = [ "export/orgpedia_mahagri2024/*" ]
 "data issues" = "https://github.com/orgpedia/mahagri2024/discussions"
 
 [tool.poetry.dependencies]
-python = ">3.8.1 <4.0"
+python = ">=3.10 <4.0"
 
 # this is a datapackage should not have any dependency as we are publishing data
 # dependencies for running the flow are in group.dev.dependencies
@@ -95,5 +93,5 @@ line-length = 100
 # Allow unused variables when underscore-prefixed.
 #dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 
-# Assume Python 3.8
-target-version = "py38"
+# Assume Python 3.10.
+target-version = "py310"
